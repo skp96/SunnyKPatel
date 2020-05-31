@@ -1,0 +1,41 @@
+// Core variables and mixins
+@import "base/variables.scss";
+@import "base/mixins.scss";
+
+// Global CSS
+@import "base/page.scss";
+
+// Components
+@import "components/buttons.scss";
+@import "components/navbar.scss";
+
+// Layout
+@import "layout/masthead.scss";
+@import "layout/services.scss";
+@import "layout/portfolio.scss";
+@import "layout/timeline.scss";
+@import "layout/team.scss";
+@import "layout/contact.scss";
+@import "layout/footer.scss";
+
+.stuff {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+
+.team-member img {
+    padding-right: 10px;
+}
+
+#main-pic img {
+      width: 240px;
+    height: 240px;
+    border: 7px solid rgba(0,0,0,.1);
+    object-position: -4px 0px;
+    /* background-color: blue; */  
+}
