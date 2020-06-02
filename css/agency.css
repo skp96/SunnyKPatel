@@ -239,7 +239,7 @@ header.masthead .intro-text .intro-heading {
   position: relative;
   display: block;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0 65px;
   cursor: pointer;
 }
 
@@ -304,6 +304,7 @@ header.masthead .intro-text .intro-heading {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+    margin-left: 170px;
   }
 }
 
